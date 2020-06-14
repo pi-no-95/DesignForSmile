@@ -17,11 +17,11 @@
     <div class="l-header__inner l-inner c-flex">
       <h1 class="header__title"><a href="#">Cresta Design</a></h1>
       <nav class="header__nav">
-        <ul class="c-flex">
-          <li><a href="#">Concept</a></li>
-          <li><a href="#">Service</a></li>
-          <li><a href="#">Works</a></li>
-          <li><a href="#">Contact</a></li>
+        <ul class="header__list c-flex">
+          <li class="header__item"><a href="#">Concept</a></li>
+          <li class="header__item"><a href="#">Service</a></li>
+          <li class="header__item"><a href="#">Works</a></li>
+          <li class="header__item"><a href="#">Contact</a></li>
         </ul>
       </nav>
       <button id="nav-btn" type="button" class="header__nav-btn"></button>
@@ -29,7 +29,7 @@
   </header>
 
   <div class="hero l-hero">
-    <div class="hero__wrapper l-inner">
+    <div class="hero__wrapper">
       <h1 class="hero__title">Design for Smile.</h1>
       <p class="hero__lead">快適なオフィスをデザインする</p>
     </div>
@@ -47,8 +47,8 @@
           </figcaption>
           <img src="img/concept-image@2x.jpg" alt="" class="concept__img">
         </figure>
-        <div class="concept__sub-title c-section__sub-title" data-subtitle="Our Concept"></div>
       </div>
+      <div class="concept__sub-title c-section__sub-title" data-subtitle="Our Concept"></div>
     </div>
   </section>
 
@@ -77,17 +77,19 @@
   <section id="service" class="l-service c-section">
     <div class="service l-inner">
       <h2 class="service__title c-section__title">Service</h2>
-      <div class="service__wrapper c-flex">
-        <div class="service__card -hearing">
-          <a href="#" class="service__link">Hearing</a>
-        </div>
-        <div class="service__card -planning">
-          <a href="#" class="service__link">Planning</a>
-        </div>
-        <div class="service__card -direction">
-          <a href="#" class="service__link">Direction</a>
-        </div>
+    </div>
+    <div class="service__wrapper c-flex">
+      <div class="service__card -hearing">
+        <a href="#" class="service__link">Hearing</a>
       </div>
+      <div class="service__card -planning">
+        <a href="#" class="service__link">Planning</a>
+      </div>
+      <div class="service__card -direction">
+        <a href="#" class="service__link">Direction</a>
+      </div>
+    </div>
+    <div class="l-inner">
       <div class="service__sub-title c-section__sub-title" data-subtitle="Our Service"></div>
     </div>
   </section>
